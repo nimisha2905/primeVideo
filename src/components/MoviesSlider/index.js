@@ -9,7 +9,7 @@ import MovieItem from '../MovieItem'
 const MoviesSlider = props => {
   const settings = {
     dots: false,
-    slideToScroll: 1,
+    slidesToScroll: 1,
     slidesToShow: 4,
   }
   const {moviesList} = props
